@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.frankmoley.lil.learningspring.LearningSpringApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.333 s <<< FAILURE! - in com.frankmoley.lil.learningspring.LearningSpringApplicationTests
+com.frankmoley.lil.learningspring.LearningSpringApplicationTests  Time elapsed: 0.33 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [G:\Ex_Files_Learning_Spring_with_Spring_Boot\Exercise Files\CH04\04_05\04_05_end\learning-spring\target\test-classes\com\frankmoley\lil\learningspring\LearningSpringApplicationTests.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [G:\Ex_Files_Learning_Spring_with_Spring_Boot\Exercise Files\CH04\04_05\04_05_end\learning-spring\target\test-classes\com\frankmoley\lil\learningspring\LearningSpringApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [G:\Ex_Files_Learning_Spring_with_Spring_Boot\Exercise Files\CH04\04_05\04_05_end\learning-spring\target\test-classes\com\frankmoley\lil\learningspring\LearningSpringApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 65
+
